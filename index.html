@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🤎 Whack-a-Molly! 🐶</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="game-container">
+        <h1>🤎 Whack-a-Molly! 🐶</h1>
+        <div class="score-board">
+            <h2>Skor: <span id="score">0</span></h2>
+            <h2>Waktu: <span id="time-left">30</span> detik</h2>
+        </div>
+        
+        <button id="start-button">Mulai Game!</button>
+
+        <div class="grid">
+            <div class="hole" id="hole-1">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-2">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-3">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-4">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-5">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-6">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-7">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-8">
+                <div class="molly"></div>
+            </div>
+            <div class="hole" id="hole-9">
+                <div class="molly"></div>
+            </div>
+        </div>
+
+        <p id="game-status" class="hidden">Waktu Habis! Skor Akhir: 0</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
